@@ -41,7 +41,7 @@ export default class WaveForm extends PureComponent<WaveObjectPropsType, StateTy
     }
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     DeviceEventEmitter.addListener("OGOnPress", this._onPress);
     DeviceEventEmitter.addListener("OGFinishPlay", this._onFinishPlay);
     const componentID = this._makeid();
