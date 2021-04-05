@@ -253,7 +253,7 @@
 
     CGContextFillRect(context, rect);
 
-    CGContextSetLineWidth(context , 1  );
+    CGContextSetLineWidth(context , 2);
 
     float halfGraphHeight = (imageHeight / 2) / (float) channelCount ;
     float centerLeft = halfGraphHeight;
